@@ -1,5 +1,5 @@
 # Where_Am_I
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg) [![Atom](https://badgen.net/badge/icon/atom?icon=atom&label)](https://atom.io) [![CodeFactor](https://www.codefactor.io/repository/github/michellemouse/where_am_i/badge)](https://www.codefactor.io/repository/github/michellemouse/where_am_i)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg) [![Atom](https://badgen.net/badge/icon/atom?icon=atom&label)](https://atom.io) [![CodeFactor](https://www.codefactor.io/repository/github/michellemouse/where_am_i/badge)](https://www.codefactor.io/repository/github/michellemouse/where_am_i) [![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://github.com/MichelleMouse/Where_Am_I/issues)
 
 Localisation project for Udacity's [Robotics Software Engineer Nanodegree](https://www.udacity.com/course/robotics-software-engineer--nd209) program where I use EMCL algortihm to localise my custom robot inside the Gazebo World!
 

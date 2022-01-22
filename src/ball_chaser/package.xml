@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>ball_chaser</name>
+  <version>0.0.0</version>
+  <description>The ball_chaser package which contains two nodes. A drive_bot which provides a service to drive the robot around. A process_image client node that subscribes to the camera images and analyse them to determine the position of a white ball.</description>
+  <maintainer email="mrhc93@gmail.com">Michelle Husbands Correa</maintainer>
+  <author email="mrhc93@gmail.com">Michelle Husbands Correa</author>
+  <license>MIT</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+  <export>
+  </export>
+</package>
