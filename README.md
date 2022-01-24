@@ -1,5 +1,5 @@
 # Where_Am_I
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg) [![Atom](https://badgen.net/badge/icon/atom?icon=atom&label)](https://atom.io) [![CodeFactor](https://www.codefactor.io/repository/github/michellemouse/where_am_i/badge)](https://www.codefactor.io/repository/github/michellemouse/where_am_i) [![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://github.com/MichelleMouse/Where_Am_I/issues)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg) [![Atom](https://badgen.net/badge/icon/atom?icon=atom&label)](https://atom.io) [![CodeFactor](https://www.codefactor.io/repository/github/michellemouse/where_am_i/badge)](https://www.codefactor.io/repository/github/michellemouse/where_am_i) [![Issues](https://badgen.net/github/open-issues/MichelleMouse/Where_Am_I)](https://github.com/MichelleMouse/Where_Am_I/issues) [![Issues](https://badgen.net/github/closed-issues/MichelleMouse/Where_Am_I)](https://github.com/MichelleMouse/Where_Am_I/issues)   
 
 Localisation project for Udacity's [Robotics Software Engineer Nanodegree](https://www.udacity.com/course/robotics-software-engineer--nd209) program where I use EMCL algortihm to localise my custom robot inside the Gazebo World!
 
@@ -18,6 +18,7 @@ $ sudo apt-get install ros-kinetic-navigation
 $ sudo apt-get install ros-kinetic-map-server
 $ sudo apt-get install ros-kinetic-move-base
 $ sudo apt-get install ros-kinetic-amcl
+$ sudo apt-get install libignition-math2-dev protobuf-compiler
 ```  
 
 ### Compiling
@@ -41,6 +42,16 @@ cd ..
 catkin_make
 source devel/setup.bash
 ```
+
+You might need to clone the `pgm_map_creator` repository:
+```
+cd /home/workspace/catkin_ws/src/
+git clone https://github.com/udacity/pgm_map_creator.git
+cd ..
+catkin_make
+```
+
+If you have any issues at compiling the project have a look at the tab [Issues](https://github.com/MichelleMouse/Where_Am_I/issues) for possible solutions.
 
 ### Running
 Launch the simulation environment and RViz

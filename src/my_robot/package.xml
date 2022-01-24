@@ -1,13 +1,10 @@
 <?xml version="1.0"?>
-<package>
+<package format="2">
   <name>my_robot</name>
   <version>0.0.0</version>
-  <description>The my_robot package</description>
-  <maintainer email="mrhc93@gmail.com">Michelle Husbands Correa</maintainer>
+  <description>Package containing the model of the robot used in the Gazebo simulation</description>
   <author email="mrhc93@gmail.com">Michelle Husbands Correa</author>
+  <maintainer email="mrhc93@gmail.com">Michelle Husbands Correa</maintainer>
   <license>MIT</license>
   <buildtool_depend>catkin</buildtool_depend>
-
-  <export>
-  </export>
 </package>
