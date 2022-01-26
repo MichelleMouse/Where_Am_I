@@ -7,6 +7,7 @@ Localisation project for Udacity's [Robotics Software Engineer Nanodegree](https
 👉 Ubuntu 16.04 LTS  
 👉 [ROS Kinetic Kame](http://wiki.ros.org/kinetic)  
 👉 Gazebo 7.8.1  
+👉 rviz 1.12.17  
 👉 C++ 11  
 👉 ROS [AMCL](http://wiki.ros.org/amcl), [Navigation](http://wiki.ros.org/navigation), [Move Base](http://wiki.ros.org/move_base) and [Map Server](http://wiki.ros.org/map_server) Kinetic packages.
 
@@ -58,15 +59,12 @@ Launch the simulation environment and RViz
 ```
 roslaunch my_robot world.launch
 ```
-Then, open a second terminal, source ROS and `setup.bash` and run the ball_chaser package
+Then, open a second terminal, source ROS and `devel/setup.bash` and run the amcl launch file
 ```
 cd /home/workspace/catkin_ws/
 source devel/setup.bash
-roslaunch ball_chaser ball_chaser.launch
+roslaunch my_robot amcl.launch
 ```
-If you wish to see the feedback from the camera, run the following command in a third terminal window
-```
-cd /home/workspace/catkin_ws/
-source devel/setup.bash
-rosrun rqt_image_view rqt_image_view
-```
+To give the robot a goal position, you can take the following approaches:  
+1. Send a `2D Nav Goal` using rviz  
+2. Run the node `teleop_twist_keyboard` in another terminal and use the keyboard to control the robot   
