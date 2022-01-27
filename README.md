@@ -3,7 +3,7 @@
 
 Localisation project for Udacity's [Robotics Software Engineer Nanodegree](https://www.udacity.com/course/robotics-software-engineer--nd209) program where I use EMCL algortihm to localise my custom robot inside the Gazebo World!
 
-<!-- <p align="center"><img src="imgs/AMCL1.png" width="400" alt="AMCL node started" /> <img src="imgs/AMCL2.png" width="400" alt="AMCL working" /></p> -->
+<p align="center"><img src="imgs/amcl.gif" width="400" alt="AMCL algorithm working" /></p>
 
 ## Environment
 👉 Ubuntu 16.04 LTS  
